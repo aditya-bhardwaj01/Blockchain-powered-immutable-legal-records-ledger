@@ -49,10 +49,10 @@ export default function User() {
         });
       });
   };
-  useEffect(() => {
-    const isConnected = localStorage.getItem("metamaskConnected") === "true"; // Use sessionStorage if needed
-    setConnected(isConnected);
-  }, []);
+  // useEffect(() => {
+  //   const isConnected = localStorage.getItem("metamaskConnected") === "true"; // Use sessionStorage if needed
+  //   setConnected(isConnected);
+  // }, []);
 
   // Function for getting handling all events
   const accountChangeHandler = (account) => {
@@ -64,7 +64,7 @@ export default function User() {
     // Setting a balance
     getbalance(account);
     setConnected(true);
-    localStorage.setItem("metamaskConnected", "true"); // Use sessionStorage if needed
+    // localStorage.setItem("metamaskConnected", "true"); // Use sessionStorage if needed
   };
   const [loginstate, setLoginState] = useState("police");
   const [accounts, setAccount] = useState([]);
