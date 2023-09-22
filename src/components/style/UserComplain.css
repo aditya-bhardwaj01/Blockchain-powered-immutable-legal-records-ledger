@@ -1,0 +1,23 @@
+.ubg {
+  background-image: url("../images/user-complain.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  /* filter: contrast(50%);
+  filter: brightness(50%); */
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  /* height: 100vh; */
+  /* filter: contrast(50%); */
+  /* overflow: hidden;  */
+}
+
+.form-container {
+    margin: 2%;
+    border-radius: 10px;
+    width: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0); /* Add a shadow for depth */
+    z-index: 2; /* Place the form container above the overlay */
+}

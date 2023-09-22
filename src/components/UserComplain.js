@@ -1,7 +1,14 @@
-import React from 'react'
-
-export default function UserComplain() {
+import "./style/UserComplain.css";
+import React from "react";
+import Form from "./Form";
+const UserComplains = () => {
   return (
-    <div>UserComplain</div>
-  )
-}
+    <div className="ubg">
+      <div className="form-container">
+        <Form />
+      </div>
+    </div>
+  );
+};
+
+export default UserComplains;
