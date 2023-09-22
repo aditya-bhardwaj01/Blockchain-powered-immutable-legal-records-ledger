@@ -16,6 +16,10 @@
     top:0;
     z-index:-1;
 }
+
+h3{
+    font-family: consolas;
+}
  
 .bg2 {
     animation-direction:alternate-reverse;
