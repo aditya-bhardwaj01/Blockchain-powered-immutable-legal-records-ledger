@@ -12,6 +12,15 @@
     font-weight: bold;
 }
 
+.search-form select{
+    height: 40px;
+    border-radius: 5px;
+    border-style: none;
+    padding: 10px;
+    width: 100%;
+    font-weight: bold;
+}
+
 .search-form{
     background-color: #CBCBCB;
     border-radius: 10px;
