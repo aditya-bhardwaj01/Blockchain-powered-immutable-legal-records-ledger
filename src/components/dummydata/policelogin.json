@@ -9,6 +9,9 @@
         "Password": "123@123",
         "Metamask": "abcde",
         "prev": "sugiu"
+        "Crimname":"Sujay"
+        "dob": "12-01-2003"
+        "aadharID":"ef53325"
       },
       {
         "PoliceID": 2,
@@ -19,6 +22,9 @@
         "Password": "456@456",
         "Metamask": "fghijk",
         "prev": "idurgi"
+        "Crimname":"Ajay"
+        "dob": "12-05-2003"
+        "aadharID":"df53325"
       }
     ]
   }
