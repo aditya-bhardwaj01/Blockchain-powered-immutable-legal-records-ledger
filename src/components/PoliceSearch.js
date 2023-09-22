@@ -17,13 +17,19 @@ export default function PoliceSearch() {
     const secretKey = 'logalrecord@1298';
     const fixedIV = CryptoJS.enc.Hex.parse('0000000000000000');
 
+    const getSearchResult = (searchvalue) => {
+        return 'searchResult';
+    }
+
     const searchRecord = () => {
         const searchvalue = document.getElementById('record-info').value;
-        const encrypted = CryptoJS.AES.encrypt(searchvalue, secretKey, {
-            iv: fixedIV, // Use the fixed IV
-        }).toString();
-        setEncryptedData(encrypted);
-        console.log(encryptedData)
+        const searchResult = getSearchResult(searchvalue);
+        console.log(searchvalue)
+        // const encrypted = CryptoJS.AES.encrypt(searchvalue, secretKey, {
+        //     iv: fixedIV,
+        // }).toString();
+        // setEncryptedData(encrypted);
+        // console.log(encryptedData);
     }
 
     return (

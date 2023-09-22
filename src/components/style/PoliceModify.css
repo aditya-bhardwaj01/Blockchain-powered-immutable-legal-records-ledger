@@ -1,0 +1,11 @@
+.modify-modal p{
+    margin: 20px 0;
+}
+
+.modify-modal label{
+    font-weight: bold;
+}
+
+.modify-modal input{
+    border-style: outset;
+}
