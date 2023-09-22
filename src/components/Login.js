@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import './style/Login.css';
 import policeofficer from './images/police-officer.png'
-import policeaccounts from './dummydata/policelogin.json'
+import policeaccounts from './dummy/data/policeData'
 import { Link } from 'react-router-dom'
 import swal from "sweetalert"
 import UserCredentials from './UserCredentials';
